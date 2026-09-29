@@ -3,8 +3,10 @@ GET http://localhost:3001/api/notes/
 ###
 POST http://localhost:3001/api/notes/ HTTP/1.1
 content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsaXZpb190aW1lIiwiaWQiOiI2YWJhYTQzMmM2YjViNThjZWY0NGMxNmEiLCJpYXQiOjE3OTA2MjAzMjJ9.V-7XZPSOrBHV9aVDeSru3qHx7E1gKypgDst9S2CS5uM
 
 {
-    "content": "Need to learn typescript",
-    "important": true
+    "content": "Don't quit, you're better than you think.",
+    "important": true,
+    "userId": "6abaa432c6b5b58cef44c16a"
 }
